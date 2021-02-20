@@ -6,11 +6,13 @@ An internationalized domain name (IDN) is an Internet domain name that contains 
 
 EAI is the protocol that allows email addresses with IDNs in the domain part and/or Unicode (non-ASCII) characters in the Local part of the Mailbox name. Email software and services need to make specific changes to support EAI, since EAI mail is conceptually a separate mail stream from legacy ASCII mail.
 
-### Prerequisite
-- SetEnv PYTHONPATH "path"
-- Shebang is important in linux : #!/usr/bin/env python3
-- folder/file structure is important
-- Generated through command : pip freeze > requirements.txt
+### Installation
+
+You can install the idn-eai module from [PyPI](https://pypi.org/project/idn-eai/):
+
+    pip install idn-eai
+
+The module is supported on Python 3.7
 
 ### Features
 
