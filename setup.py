@@ -27,8 +27,8 @@ setup(
     # Any link to reach this module, ***if*** you have any webpage or github profile
     url="https://github.com/imarg3/idn-eai",
 
-    # packages=find_packages(),
-    packages=["eai"],
+    packages=find_packages(exclude=("tests",)),
+    # packages=["eai"],
     # include_package_data=True,
 
     # if module has dependecies i.e. if your package rely on other package at pypi.org
